@@ -1,0 +1,48 @@
+#main {
+  width: 100%
+}
+
+#header{
+  border: 2px solid black;
+  text-align: center;
+}
+
+#summary{
+  border: 2px solid black;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  #summary {
+      font-size: 14px;
+  }
+}
+
+.overview{
+  border: 2px solid black;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title{
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.overview-exp .title{
+  text-align: center;
+  width: 100%;
+} 
+
+.type-year{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
